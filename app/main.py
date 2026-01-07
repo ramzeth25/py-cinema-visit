@@ -14,7 +14,7 @@ def cinema_visit(
         customer.get("name"),
         customer.get("food")
     )
-                      for customer in customers]
+        for customer in customers]
     cinema_hall = CinemaHall(hall_number)
     cleaner = Cleaner(cleaner)
 
